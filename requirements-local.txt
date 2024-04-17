@@ -4,3 +4,4 @@ pytz==2018.5
 captcha
 django-queryset-csv
 six
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
