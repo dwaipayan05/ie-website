@@ -1,6 +1,7 @@
-Django==2.2.13
+Django==4.2.27
 gunicorn==19.9.0
 pytz==2018.5
 captcha
 django-queryset-csv
 six
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
